@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  gogs:
+    container_name: gogs
+    restart: always
+    image: gogs/gogs:latest
+    ports:
+        - "3022:22"
+        - "3000:3000"
+    volumes:
+        - "./data:/data/gogs"
+        - "./repo:/data/git/gogs-repositories"
+    environment:
+        - "RUN_CROND=true"
+volumes:
+    gogs-data:
+        driver: local

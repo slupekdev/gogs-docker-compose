@@ -1,0 +1,7 @@
+/data/data/*
+!/data/data/.gitkeep
+!/data/conf/app.ini
+/data/log/*
+!/data/log/.gitkeep
+/repo/*
+!/repo/.gitkeep
