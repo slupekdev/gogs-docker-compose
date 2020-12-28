@@ -5,7 +5,7 @@
 ### How to start
 ---
 1. Clone this repo.
-1. Set value for the `SECRET_KEY` in the `data\config\app.ini` (e.g. using [www.random.com](https://www.random.org/strings/?num=1&len=15&digits=on&upperalpha=on&loweralpha=on&unique=off&format=html&rnd=new)).
+1. Set value for the `SECRET_KEY` in the `data\config\app.ini` (e.g. using [www.random.org](https://www.random.org/strings/?num=1&len=15&digits=on&upperalpha=on&loweralpha=on&unique=off&format=html&rnd=new)).
 2. Run `docker-compose up -d` to start gogs.
 3. To check that your gogs application is running enter url [http://localhost:3000](http://localhost:3000) (`ROOT_URL`).
 4. Register a new user account.
