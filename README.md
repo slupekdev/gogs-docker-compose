@@ -21,4 +21,4 @@
 
 See the [Gogs configuration cheat sheet][1] for more information.
 
-[1]: https://gogs.io/docs/advanced/configuration_cheat_sheet "Gogs cheat sheet"
+[1]: https://github.com/gogs/docs/blob/master/en-US/advanced/configuration_cheat_sheet.md "Gogs cheat sheet"
